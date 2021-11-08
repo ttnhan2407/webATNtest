@@ -13,7 +13,7 @@
                         <ul>
                         <li ><a  href="?page=pm">All</a></li>
 
-                        <?php category_list($conn); ?>
+                        <?php Category_List($conn); ?>
                             
                         </ul>
                     </div>
