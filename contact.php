@@ -88,7 +88,7 @@
                     <div class="contact__widget">
                         <span class="icon_mail_alt"></span>
                         <h4>Email</h4>
-                        <p>sieungcc19186@fpt.edu.vn</p>
+                        <p>tuonggcc19257@fpt.edu.vn</p>
                     </div>
                 </div>
             </div>
