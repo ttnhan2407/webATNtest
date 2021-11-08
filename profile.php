@@ -8,10 +8,10 @@
                             <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Vinyl</a></li>
-                            <li><a href="#">Cassette</a></li>
+                            <li><a href="#">Figure</a></li>
+                            <li><a href="#">Pillow</a></li>
                             
-                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Image</a></li>
                             
                         </ul>
                     </div>
@@ -44,7 +44,7 @@
         </div>
     </section>
     <!-- Hero Section End -->
-<section class="breadcrumb-section set-bg" data-setbg="img/backgroundvinyl.jpg">
+<section class="breadcrumb-section set-bg" data-setbg="img/Background.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

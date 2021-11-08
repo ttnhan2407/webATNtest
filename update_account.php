@@ -18,10 +18,10 @@
                             <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Vinyl</a></li>
-                            <li><a href="#">Cassette</a></li>
+                            <li><a href="#">Figure</a></li>
+                            <li><a href="#">Pillow</a></li>
                             
-                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Image</a></li>
                             
                         </ul>
                     </div>

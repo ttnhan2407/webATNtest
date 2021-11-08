@@ -26,9 +26,9 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Vinyl</a></li>
-                            <li><a href="#">Audio</a></li>
-                            <li><a href="#">Cassette</a></li>
+                            <li><a href="#">Figure</a></li>
+                            <li><a href="#">Pillow</a></li>
+                            <li><a href="#">Image</a></li>
                             
                         </ul>
                     </div>
@@ -62,7 +62,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/backgroundvinyl.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="img/Background.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -92,13 +92,13 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                         </div>
                         <div class="product__details__pic__slider owl-carousel">
                             <img data-imgbigurl="img/product/details/product-details-2.jpg"
-                                src="img/product/details/the_abbey_road.jpg" alt="">
+                                src="img/product/details/plklee.jpg" alt="">
                             <img data-imgbigurl="img/product/details/product-details-3.jpg"
-                                src="img/product/details/mmt.jpg" alt="">
+                                src="img/product/details/plventi" alt="">
                             <img data-imgbigurl="img/product/details/product-details-5.jpg"
-                                src="img/product/details/queen_gr.jpg" alt="">
+                                src="img/product/details/pltraveler.jpeg" alt="">
                             <img data-imgbigurl="img/product/details/product-details-4.jpg"
-                                src="img/product/details/queen_gr2.jpg" alt="">
+                                src="img/product/details/comaytoy.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -200,7 +200,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/the_abbey_road.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/zhongfu.jpg">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -208,14 +208,14 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">The Abbey Road</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Figure Zhongli</a></h6>
+                            <h5>$45.00</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/mmt.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/beidofu.jpg">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -223,14 +223,14 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Magical Mystery Tour</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Figure Beido</a></h6>
+                            <h5>$70.00</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/queen.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/windsmile.jpg">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -238,14 +238,14 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Queen II</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Pillow Smile</a></h6>
+                            <h5>$60.00</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="img/product/queen_gr.jpg">
+                        <div class="product__item__pic set-bg" data-setbg="img/product/gostpi.jpg">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -253,8 +253,8 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Queen Greatest Hits</a></h6>
-                            <h5>$30.00</h5>
+                            <h6><a href="#">Pillow Ghost</a></h6>
+                            <h5>$80.00</h5>
                         </div>
                     </div>
                 </div>

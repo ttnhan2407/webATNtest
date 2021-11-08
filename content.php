@@ -34,10 +34,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="img/hero/backgroundvinyl.jpg">
+                    <div class="hero__item set-bg" data-setbg="img/Background.jpg">
                         <div class="hero__text">
                             <span>NEW ON</span>
-                            <h2>ATN <br />Toy Store</h2> 
+                            <h2>ATN Shop</h2> 
                             
                             <a href="?page=shop-grid" class="primary-btn">SHOP NOW</a>
                         </div>
@@ -54,28 +54,28 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/the_abbey_road.jpg">
-                            <h5><a href="#">The Beatles</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/paimon.jpg">
+                            <h5><a href="#">Paimon Figure</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/queen.jpg">
-                            <h5><a href="#">Queen</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/keqing.jpg">
+                            <h5><a href="#">Fugure Keqing</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/Michaelalbumcover.jpg">
-                            <h5><a href="#">Michael Jackson</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/ganyu.jpg">
+                            <h5><a href="#">Figure Ganyu</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/eltonjohnalbum.jpg">
-                            <h5><a href="#">Elton John</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/thobatuoc.jpg">
+                            <h5><a href="#">Earl bunny teddy bear</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/pinkfloydalbum.jpg">
-                            <h5><a href="#">Pink Floyd</a></h5>
+                        <div class="categories__item set-bg" data-setbg="img/categories/bomb.jpg">
+                            <h5><a href="#">Bomb pillow</a></h5>
                         </div>
                     </div>
                 </div>
