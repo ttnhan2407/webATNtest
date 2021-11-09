@@ -82,11 +82,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="ATNimg/usopp.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
+                            
                         </div>
                         <div class="product__item__text">
                             <h6><a href="#"></a></h6>
@@ -96,11 +92,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="ATNimg/pika.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
+                            
                         </div>
                         <div class="product__item__text">
                             <h6><a href="#"></a></h6>
@@ -110,11 +102,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="ATNimg/Mikey.jpg">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
+                            
                         </div>
                         <div class="product__item__text">
                             <h6><a href="#"></a></h6>
@@ -124,11 +112,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="ATNimg/luffy1.jfif">
-                            <ul class="product__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
-                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-                            </ul>
+                            
                         </div>
                         <div class="product__item__text">
                             <h6><a href="#"></a></h6>
