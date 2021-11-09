@@ -40,13 +40,13 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                         </div>
                         <div class="product__details__pic__slider owl-carousel">
                             <img data-imgbigurl="img/product/details/product-details-2.jpg"
-                                src="img/product/details/the_abbey_road.jpg" alt="">
+                                src="img/product/details/Brook.jfif" alt="">
                             <img data-imgbigurl="img/product/details/product-details-3.jpg"
-                                src="img/product/details/mmt.jpg" alt="">
+                                src="img/product/details/Charlotte.jpg" alt="">
                             <img data-imgbigurl="img/product/details/product-details-5.jpg"
-                                src="img/product/details/queen_gr.jpg" alt="">
+                                src="img/product/details/Enel.jfif" alt="">
                             <img data-imgbigurl="img/product/details/product-details-4.jpg"
-                                src="img/product/details/queen_gr2.jpg" alt="">
+                                src="img/product/details/Luffy.jpg" alt="">
                         </div>
                     </div>
                 </div>
