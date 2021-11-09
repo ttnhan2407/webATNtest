@@ -1,22 +1,4 @@
 
-    <!-- Hero Section Begin -->
-    <section class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-9">
-                    <div class="hero__item set-bg" data-setbg="ATNimg/one.jpg">
-                        <div class="hero__text">
-                            <span>NEW ON</span>
-                            <h2>ATN <br />TOY</h2> 
-                            
-                            <a href="?page=shop-grid" class="primary-btn">SHOP NOW</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hero Section End -->
 
     <!-- Categories Section Begin -->
     <section class="categories">
