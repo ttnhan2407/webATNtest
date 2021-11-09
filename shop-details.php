@@ -38,29 +38,11 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             <img class="product__details__pic__item--large"
                                 src="img/<?php echo $row["pro_image"]; ?>" alt="">
                         </div>
-                        <div class="product__details__pic__slider owl-carousel">
-                            <img data-imgbigurl="img/product/details/product-details-2.jpg"
-                                src="img/product/details/ace.jfif" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-3.jpg"
-                                src="img/product/details/Goku.jfif" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-5.jpg"
-                                src="img/product/details/Levi.jfif" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-4.jpg"
-                                src="img/product/details/Luffy.jfif" alt="">
-                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="product__details__text">
                         <h3><?php echo $row["product_name"]; ?></h3>
-                        <div class="product__details__rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star-half-o"></i>
-                            <span>(18 reviews)</span>
-                        </div>
                         <div class="product__details__price">$<?php echo $row["price"]; ?></div>
                         <p><?php echo $row["smalldesc"]; ?></p>
                         <form method="POST">
