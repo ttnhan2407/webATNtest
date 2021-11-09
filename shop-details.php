@@ -1,4 +1,3 @@
-
 <?php 
 
 if(isset($_GET['id'])){
@@ -9,12 +8,7 @@ where product.cat_id = category.cat_id and product.product_id='$id'";
 $result = pg_query($conn, $sql);
 $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
 
-
 ?>
-   
-
-   
-
     <!-- Hero Section Begin -->
     <section class="hero hero-normal">
         <div class="container">
@@ -89,16 +83,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             <img class="product__details__pic__item--large"
                                 src="img/<?php echo $row["Pro_image"]; ?>" alt="">
                         </div>
-                        <div class="product__details__pic__slider owl-carousel">
-                            <img data-imgbigurl="img/product/details/product-details-2.jpg"
-                                src="img/product/details/the_abbey_road.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-3.jpg"
-                                src="img/product/details/mmt.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-5.jpg"
-                                src="img/product/details/queen_gr.jpg" alt="">
-                            <img data-imgbigurl="img/product/details/product-details-4.jpg"
-                                src="img/product/details/queen_gr2.jpg" alt="">
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -237,7 +222,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="ATNimg/Luffy.jfif">
+                        <div class="product__item__pic set-bg" data-setbg="ATNimg/luffy.jfif">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
