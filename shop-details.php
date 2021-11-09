@@ -36,7 +36,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                     <div class="product__details__pic">
                         <div class="product__details__pic__item">
                             <img class="product__details__pic__item--large"
-                                src="img/<?php echo $row["Pro_image"]; ?>" alt="">
+                                src="img/<?php echo $row["pro_image"]; ?>" alt="">
                         </div>
                         <div class="product__details__pic__slider owl-carousel">
                             <img data-imgbigurl="img/product/details/product-details-2.jpg"
@@ -52,7 +52,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="product__details__text">
-                        <h3><?php echo $row["Product_Name"]; ?></h3>
+                        <h3><?php echo $row["product_name"]; ?></h3>
                         <div class="product__details__rating">
                             <i class="fa fa-star"></i>
                             <i class="fa fa-star"></i>

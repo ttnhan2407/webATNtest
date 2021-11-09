@@ -21,7 +21,7 @@
                     }
                     else{
                     
-                    $result = pg_query($conn,"SELECT product_id, Product_name, price, pro_qty, pro_image, cat_name 
+                    $result = pg_query($conn,"SELECT product_id, product_name, price, pro_qty, pro_image, cat_name 
                     from product a, category b 
                     where a.cat_id = b.cat_id order by pro_image desc");
                     }
