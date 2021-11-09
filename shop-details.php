@@ -68,70 +68,14 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
     </section>
     <!-- Product Details Section End -->
 
-    <!-- Related Product Section Begin -->
-    <section class="related-product">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title related__product__title">
-                        <h2></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="ATNimg/usopp.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <h6><a href="#"></a></h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="ATNimg/pika.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <h6><a href="#"></a></h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="ATNimg/Mikey.jpg">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <h6><a href="#"></a></h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6">
-                    <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="ATNimg/luffy1.jfif">
-                            
-                        </div>
-                        <div class="product__item__text">
-                            <h6><a href="#"></a></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Related Product Section End -->
-
     <!-- Categories Section Begin -->
     <section class="categories">
         <div class="container">
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="ATNimg/zr.jpg">
-                            <h5><a href="#">Roronoa Zoro</a></h5>
+                        <div class="categories__item set-bg" data-setbg="ATNimg/usopp.jpg">
+                            <h5><a href="#">Usopp</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
