@@ -3,7 +3,6 @@
     <section class="hero hero-normal">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form">
                             <form action="#">
@@ -22,7 +21,6 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </section>
@@ -50,7 +48,6 @@
     <section class="product spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9 col-md-7">
                     <div class="product__discount">
                         <div class="section-title product__discount__title">
                             <h2> Bestseller</h2>
@@ -168,7 +165,6 @@
                     <div class="product__pagination">
                         
                     </div>
-                </div>
             </div>
         </div>
     </section>
