@@ -108,7 +108,6 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                         </div>
                         <div class="product__item__text">
                             <h6><a href="#">GoKu</a></h6>
-                            <h5>$30.00</h5>
                         </div>
                     </div>
                 </div>
@@ -123,7 +122,6 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                         </div>
                         <div class="product__item__text">
                             <h6><a href="#">Ace</a></h6>
-                            <h5>$30.00</h5>
                         </div>
                     </div>
                 </div>
@@ -138,7 +136,6 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                         </div>
                         <div class="product__item__text">
                             <h6><a href="#">Sanji</a></h6>
-                            <h5>$30.00</h5>
                         </div>
                     </div>
                 </div>
@@ -153,7 +150,6 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                         </div>
                         <div class="product__item__text">
                             <h6><a href="#">Luffy</a></h6>
-                            <h5>$30.00</h5>
                         </div>
                     </div>
                 </div>
