@@ -9,51 +9,6 @@ $result = pg_query($conn, $sql);
 $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
 
 ?>
-    <!-- Hero Section Begin -->
-    <section class="hero hero-normal">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="hero__categories">
-                        <div class="hero__categories__all">
-                            <i class="fa fa-bars"></i>
-                            <span>All departments</span>
-                        </div>
-                        <ul>
-                            <li><a href="#">One Piece</a></li>
-                            <li><a href="#">Son Guku</a></li>
-                            
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="hero__search">
-                        <div class="hero__search__form">
-                            <form action="#">
-                                <div class="hero__search__categories">
-                                    All Categories
-                                    <span class="arrow_carrot-down"></span>
-                                </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
-                            </form>
-                        </div>
-                        <div class="hero__search__phone">
-                            <div class="hero__search__phone__icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="hero__search__phone__text">
-                                <h5>081 537 80575</h5>
-                                <span>Support 24/7 time</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hero Section End -->
-
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
         <div class="container">
@@ -83,7 +38,16 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             <img class="product__details__pic__item--large"
                                 src="img/<?php echo $row["Pro_image"]; ?>" alt="">
                         </div>
-                        
+                        <div class="product__details__pic__slider owl-carousel">
+                            <img data-imgbigurl="img/product/details/product-details-2.jpg"
+                                src="img/product/details/the_abbey_road.jpg" alt="">
+                            <img data-imgbigurl="img/product/details/product-details-3.jpg"
+                                src="img/product/details/mmt.jpg" alt="">
+                            <img data-imgbigurl="img/product/details/product-details-5.jpg"
+                                src="img/product/details/queen_gr.jpg" alt="">
+                            <img data-imgbigurl="img/product/details/product-details-4.jpg"
+                                src="img/product/details/queen_gr2.jpg" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
@@ -113,50 +77,8 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                         <ul>
                             <li><b>Availability</b> <span>In Stock</span></li>
                             <li><b>Shipping</b> <span>01 day shipping. <samp>Free pickup today</samp></span></li>
-                            <li><b>Weight</b> <span>0.5 kg</span></li>
-                            <li><b>Share on</b>
                             </li>
                         </ul>
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="product__details__tab">
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab"
-                                    aria-selected="true">Description</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab"
-                                    aria-selected="false">Information</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab"
-                                    aria-selected="false">Reviews <span>(1)</span></a>
-                            </li>
-                        </ul>
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="tabs-1" role="tabpanel">
-                                <div class="product__details__tab__desc">
-                                    <h6><?php echo $row["DetailDesc"]; ?></h6>
-                                    <p></p>
-                                        
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-2" role="tabpanel">
-                                <div class="product__details__tab__desc">
-                                    <h6>Products Infomation</h6>
-                                    <p>Let It Be is the Beatles' last studio album, released on May 8, 1970 by Apple Records. This is also the only album that George Martin is not a producer but instead is Phil Spector. Along with the Yellow Submarine, this is a rare album by The Beatles that Rolling Stone magazine rated negative on quality. The album includes a number of popular songs, such as "Let It Be", "Get Back", "Across the Universe" and "The Long and Winding Road".</p>
-                                    
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="tabs-3" role="tabpanel">
-                                <div class="product__details__tab__desc">
-                                    <h6>Products Infomation</h6>
-                                    <p>Let It Be is the Beatles' last studio album, released on May 8, 1970 by Apple Records. This is also the only album that George Martin is not a producer but instead is Phil Spector. Along with the Yellow Submarine, this is a rare album by The Beatles that Rolling Stone magazine rated negative on quality. The album includes a number of popular songs, such as "Let It Be", "Get Back", "Across the Universe" and "The Long and Winding Road".</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
