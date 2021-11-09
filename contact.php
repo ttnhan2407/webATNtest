@@ -10,10 +10,7 @@
                             <i class="fa fa-bars"></i>
                             <span>All departments</span>
                         </div>
-                        <ul>
-                        <?php Department($conn ); ?>
-                            
-                        </ul>
+
                     </div>
                 </div>
                 <div class="col-lg-9">
@@ -42,7 +39,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.png">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

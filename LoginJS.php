@@ -41,7 +41,7 @@
         </div>
     </section>
     <!-- Hero Section End -->
-<section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.png">
+<section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -85,7 +85,7 @@
 			include_once("connection.php");
 			$pass = md5($pa);
 			$res = pg_query($conn, "SELECT username, password, state FROM customer WHERE username='$us' AND password='$pass'")
-            or die(pg_error($conn));
+            or die(pg_last_error($conn));
             $row = pg_fetch_array($res, NULL, PGSQL_ASSOC);
 			if(pg_num_rows($res)==1)
 			{
@@ -149,5 +149,3 @@
  </div>
     
 </form>
-
-   

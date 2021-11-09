@@ -9,10 +9,7 @@
                             <i class="fa fa-bars"></i>
                             <span>All departments</span>
                         </div>
-                        <ul>
-                        <?php Department($conn); ?>
-                            
-                        </ul>
+
                     </div>
                 </div>
                 <div class="col-lg-9">
@@ -34,7 +31,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="ATNimg/background.png">
+                    <div class="hero__item set-bg" data-setbg="ATNimg/one.jpg">
                         <div class="hero__text">
                             <span>NEW ON</span>
                             <h2>ATN <br />TOY</h2> 

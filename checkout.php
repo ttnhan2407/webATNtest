@@ -10,9 +10,8 @@
                             <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Vinyl</a></li>
-                            <li><a href="#">Audio</a></li>
-                            <li><a href="#">Cassette</a></li>
+                            <li><a href="#">One Piece</a></li>
+                            <li><a href="#">Son Guku</a></li>
                             
                         </ul>
                     </div>
@@ -46,7 +45,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.png">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

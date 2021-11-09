@@ -63,7 +63,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.png">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -124,7 +124,7 @@
                                 }
                                 ?>
                             <tbody>
-                            <?php //
+                            <?php 
                                  if(isset($_GET['id'])){
                                     $id=$_GET['id'];
                                     $result = pg_query($conn,"SELECT product.product_id, product.product_name, product.price, product.pro_qty, product.pro_image, category.cat_name 

@@ -8,7 +8,6 @@
                     <div class="featured__controls">
                         <ul>
                             <li class="active" data-filter="*" ><a href="?page=content">All</a></li>
-                            <?php Featured($conn); ?>
                             
                             
                         </ul>

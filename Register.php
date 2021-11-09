@@ -9,10 +9,8 @@
                             <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Vinyl</a></li>
-                            <li><a href="#">Cassette</a></li>
-                            
-                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">One Piece</a></li>
+                            <li><a href="#">Son Guku</a></li>
                             
                         </ul>
                     </div>
@@ -45,7 +43,7 @@
         </div>
     </section>
     <!-- Hero Section End -->
-<section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.png">
+<section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -114,7 +112,7 @@ if(isset($_POST['btnRegister']))
             pg_query($conn,"INSERT INTO customer (username, password, custname, gender, address, telephone,
              email, cusdate, cusmonth, cusyear, ssn, activecode, state)
              VALUES ('$us','$pass','$fullname','$sex', '$address', '$tel', '$email',
-              $date, $month, $year,'','',0)") or die(pg_error($conn));
+              $date, $month, $year,'','',0)") or die(pg_last_error($conn));
              echo"You have registered successfully";
 
         }

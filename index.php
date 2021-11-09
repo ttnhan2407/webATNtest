@@ -107,17 +107,10 @@ include_once("connection.php");
                 <li><a href="?page=contact">Contact</a></li>
             </ul>
         </nav>
-        <div id="mobile-menu-wrap"></div>
-        <div class="header__top__right__social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
-            <a href="#"><i class="fa fa-pinterest-p"></i></a>
-        </div>
+
         <div class="humberger__menu__contact">
             <ul>
-                <li><i class="fa fa-envelope"></i> tuongdvgcc19257@fpt.edu.vn</li>
-                <li>Free Shipping on All Orders Under $100</li>
+                <li><i class="fa fa-envelope"></i> nhanttgcc19274@fpt.edu.vn</li>
             </ul>
         </div>
         <div class="col-lg-3">
@@ -144,18 +137,12 @@ include_once("connection.php");
                         <div class="header__top__left">
                             <ul>
                                 <li><i class="fa fa-envelope"></i> nhanttgcc19274@fpt.edu.vn</li>
-                                <li>Free Shipping on All Orders Under $100</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__right">
-                            <div class="header__top__right__social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                            </div>
+
                             <div class="header__top__right__language">
                                 <img src="img/language.png" alt="">
                                 <div>English</div>
@@ -426,12 +413,6 @@ include_once("connection.php");
                             <input type="text" placeholder="Enter your mail">
                             <button type="submit" class="site-btn">Subscribe</button>
                         </form>
-                        <div class="footer__widget__social">
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-instagram"></i></a>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                            <a href="#"><i class="fa fa-pinterest"></i></a>
-                        </div>
                     </div>
                 </div>
             </div>

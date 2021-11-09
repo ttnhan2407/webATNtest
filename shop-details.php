@@ -26,9 +26,8 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Vinyl</a></li>
-                            <li><a href="#">Audio</a></li>
-                            <li><a href="#">Cassette</a></li>
+                            <li><a href="#">One Piece</a></li>
+                            <li><a href="#">Son Guku</a></li>
                             
                         </ul>
                     </div>
@@ -62,7 +61,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.png">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -127,17 +126,10 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             <a href="#" class="heart-icon"><span class="icon_heart_alt"></span></a>
                         </form>
                         <ul>
-                            <li><b>Try on</b> <a href="https://vi.chiasenhac.vn/nghe-album/abbey-road-xssw0sbwq9n4q9.html" target="_blank">CSN</a></li>
                             <li><b>Availability</b> <span>In Stock</span></li>
                             <li><b>Shipping</b> <span>01 day shipping. <samp>Free pickup today</samp></span></li>
                             <li><b>Weight</b> <span>0.5 kg</span></li>
                             <li><b>Share on</b>
-                                <div class="share">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                </div>
                             </li>
                         </ul>
                     </div>
@@ -200,7 +192,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="ATNimg/background.png">
+                        <div class="product__item__pic set-bg" data-setbg="ATNimg/Goku.jfif">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -208,7 +200,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#"></a></h6>
+                            <h6><a href="#">GoKu</a></h6>
                             <h5>$30.00</h5>
                         </div>
                     </div>
@@ -223,7 +215,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Porgas.D . Ace</a></h6>
+                            <h6><a href="#">Ace</a></h6>
                             <h5>$30.00</h5>
                         </div>
                     </div>
@@ -238,7 +230,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Mikey Sanjjiro</a></h6>
+                            <h6><a href="#">Sanji</a></h6>
                             <h5>$30.00</h5>
                         </div>
                     </div>
@@ -253,7 +245,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             </ul>
                         </div>
                         <div class="product__item__text">
-                            <h6><a href="#">Monkey. D. Luffy</a></h6>
+                            <h6><a href="#">Luffy</a></h6>
                             <h5>$30.00</h5>
                         </div>
                     </div>

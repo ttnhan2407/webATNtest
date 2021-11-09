@@ -12,8 +12,6 @@
                         
                         <ul>
                         <li ><a  href="?page=pm">All</a></li>
-
-                        <?php Category_List($conn ); ?>
                             
                         </ul>
                     </div>
@@ -48,7 +46,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.png">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

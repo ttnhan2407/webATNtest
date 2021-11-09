@@ -14,8 +14,6 @@
                         
                         <ul>
                         <li ><a  href="?page=pm">All</a></li>
-
-                            <?php Category_List($conn ); ?>
                             
                         </ul>
                     </div>
