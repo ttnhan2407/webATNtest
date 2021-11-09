@@ -12,9 +12,9 @@
                             <span>All departments</span>
                         </div>
                         <ul>
-                            <li><a href="#">Figure</a></li>
-                            <li><a href="#">Pillow</a></li>
-                            <li><a href="#">Image</a></li>
+                            <li><a href="#">Vinyl</a></li>
+                            <li><a href="#">Audio</a></li>
+                            <li><a href="#">Cassette</a></li>
                             
                         </ul>
                     </div>
@@ -48,7 +48,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/Background.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNtoy/background.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -159,9 +159,9 @@
                                 <h4>Your Order</h4>
                                 <div class="checkout__order__products">Products <span>Total</span></div>
                                 <ul>
-                                    <li>Ganyu<span>$60.00</span></li>
-                                    <li>Keqing <span>$58.00</span></li>
-                                    <li>Bomb pillow <span>$30.00</span></li>
+                                    <li>Let it be<span>$30.00</span></li>
+                                    <li>Diamonds <span>$30.00</span></li>
+                                    <li>Queen Greatest Hits <span>$30.00</span></li>
                                 </ul>
                                 <div class="checkout__order__subtotal">Subtotal <span>$90.00</span></div>
                                 <div class="checkout__order__subtotal">Tax <span>$9.00</span></div>

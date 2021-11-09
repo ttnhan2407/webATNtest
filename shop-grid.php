@@ -50,7 +50,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/Background.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNtoy/background.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -171,7 +171,7 @@
                                     <div class="latest-prdouct__slider__item">
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/SaraIma.png" alt="">
+                                                <img src="ATNtoy/ace.jpg" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -180,7 +180,7 @@
                                         </a>
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/ghostpi.jpg" alt="">
+                                                <img src="ATNtoy/luffy.jpg" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -189,7 +189,7 @@
                                         </a>
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/imagekeqing.jpg" alt="">
+                                                <img src="ATNtoy/Levi.jpg" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -200,7 +200,7 @@
                                     <div class="latest-prdouct__slider__item">
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/windsmile.jpg" alt="">
+                                                <img src="ATNtoy/Mikey.jpg" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -209,7 +209,7 @@
                                         </a>
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/Imagekeqing.jpg" alt="">
+                                                <img src="ATNtoy/pika.jpg" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -218,7 +218,7 @@
                                         </a>
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="img/latest-product/kleepillow.jpg" alt="">
+                                                <img src="ATNtoy/zr.jpg" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -335,7 +335,7 @@
                                     </ul>
                                 </div>
                                 <div class="product__item__text">
-                                    <h6><a href="?page=shop-details&&id=<?php echo  $row['product_id'] ?>"><?php echo $row["product_name"] ?> </a></h6>
+                                    <h6><a href="?page=shop-details&&id=<?php echo  $row['product_id'] ?>"><?php echo $row["product_name"] ?></a></h6>
                                     <h5><?php echo $row["price"] ?>$</h5>
                                 </div>
                             </div>

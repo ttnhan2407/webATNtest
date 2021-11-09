@@ -6,11 +6,11 @@
                     <div class="hero__categories">
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
-                            <span>All departments</span>
-                            
-                            
+                            <span>All toy brands</span>
                         </div>
-                        
+                        <ul>
+						    <?php Department($conn); ?>
+                        </ul>
                         <ul>
                         <li ><a  href="?page=pm">All</a></li>
 
@@ -37,7 +37,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 90 785 3006</h5>
+                                <h5>+84 09 078 53006</h5>
                                 <span>support 24/7 time</span>
                             </div>
                         </div>
@@ -49,7 +49,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/Background.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNtoy/background.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -72,7 +72,7 @@
 	{
 		$sqlString = "SELECT cat_id, cat_name from category";
 		$result = pg_query($conn, $sqlString);
-		echo "<SELECT name ='CategoryList' class='from-control'>
+echo "<SELECT name ='CategoryList' class='from-control'>
 			<option value='0'>Choose Category</option>";
 			while ($row=pg_fetch_array($result,NULL, PGSQL_ASSOC))
 			{
@@ -90,7 +90,7 @@
 	if(isset($_GET['id']))
 	{
 		$id = $_GET['id'];
-		$sqlString = "SELECT product_name, price, smalldesc, detaildesc, proDate, pro_qty, pro_image, cat_id from product where product_id='$id'";
+		$sqlString = "SELECT product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id from product where product_id='$id'";
 
 		$result = pg_query($conn, $sqlString);
 		$row = pg_fetch_array($result, NULL, PGSQL_ASSOC);
@@ -118,7 +118,7 @@
 					<label for="txtTen" class="col-sm-2 control-label">Product Name(*):  </label>
 							<div class="col-sm-10">
 								  <input type="text" name="txtName" id="txtName" class="form-control" 
-								  placeholder="Product Name" value='<?php echo $row["Product_Name"]?>'/>
+								  placeholder="Product Name" value='<?php echo $row["product_name"]?>'/>
 							</div>
                 </div>   
                 <div class="form-group">   
@@ -145,7 +145,7 @@
                             
                 <div class="form-group">   
                     <label for="lblDetail" class="col-sm-5 control-label">Detail Description(*):  </label>
-							<div class="col-sm-10">
+<div class="col-sm-10">
 							      <textarea type="text" name="txtDetail" id="txtDetail" class="form-control" style="height: 150px" row="4" value="<?php echo $detail?>"></textarea>
 							</div>
                 </div>
@@ -209,8 +209,8 @@
 							copy($pic['tmp_name'], "img/".$pic['name']);
 							$filepic = $pic['name'];
 							
-							$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short', detaildesc ='$detail', pro_qty='$qty', pro_image='$filepic', cat_id='$cat', 
-							prodate='".date('Y-m-d H:i:s')."' where product_id ='$id'";
+							$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short', detaildesc ='$detail', pro_qty ='$qty', pro_image ='$filepic', cat_id ='$cat', 
+							prodate ='".date('Y-m-d H:i:s')."' where product_id ='$id'";
 							pg_query($conn,$sqlString);
 							echo '<meta http-equiv="refresh" content="0;URL=?page=pm"';	
 						// }
@@ -234,7 +234,7 @@
 				// $sql="SELECT * from Product where Product_ID='$id' and Product_Name='$proname'";
 				// $result = mysqli_query($conn, $sql);
 				// if(mysqli_num_rows($result)=="0")
-				// {
+// {
 					$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short',  detaildesc ='$detail', pro_qty='$qty', cat_id='$cat', 
 					prodate='".date('Y-m-d H:i:s')."' where product_id ='$id'";
 					pg_query($conn,$sqlString);
@@ -258,5 +258,3 @@
 		
 	}
 ?>
-
-

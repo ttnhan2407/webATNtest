@@ -68,7 +68,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="img/Background.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNtoy/background.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -110,8 +110,8 @@
                                 if(isset($_GET["function"])=="del"){
                                     if(isset($_GET["id"])){
                                         $id=$_GET["id"];
-                                        $sql="SELECT pro_image from product WHERE product_id='$id'";
-                                        $res= pg_query($conn, $sql);
+                                        $sq="SELECT pro_image from product WHERE product_id='$id'";
+                                        $res= pg_query($conn, $sq);
                                         $row= pg_fetch_array($res, NULL, PGSQL_ASSOC);
                                         $filePic= $row['pro_image'];
                                         pg_query($conn,"DELETE FROM product WHERE product_id='$id'");
@@ -164,7 +164,7 @@
                                         
                                     </td>
                                     <td class="shoping__cart__total">
-                                       <a href="?page=edit&&id=<?php echo $row['Product_ID'] ?>"> EDIT</a>
+                                       <a href="?page=edit&&id=<?php echo $row['product_id'] ?>"> EDIT</a>
                                     </td>
                                     <td class="shoping__cart__item__close">
                                         

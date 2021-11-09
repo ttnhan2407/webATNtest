@@ -24,7 +24,7 @@
                     }
                     else{
                     
-                    $result = pg_query($conn,"SELECT product_id, product_name, price, pro_qty, pro_image, cat_name 
+                    $result = pg_query($conn,"SELECT product_id, Product_name, price, pro_qty, pro_image, cat_name 
                     from product a, category b 
                     where a.cat_id = b.cat_id order by pro_image desc");
                     }
@@ -44,7 +44,7 @@
                     
                                 <li><a href="#"><span class="fa fa-heart"></span></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="?page=shop-details&&id=<?php echo  $row['product_id'] ?>"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="?page=shop-details&&id=<?php echo  $row['ơroduct_id'] ?>"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">

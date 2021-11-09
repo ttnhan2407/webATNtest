@@ -34,10 +34,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="img/Background.jpg">
+                    <div class="hero__item set-bg" data-setbg="ATNtoy/background.jpg">
                         <div class="hero__text">
                             <span>NEW ON</span>
-                            <h2>ATN Shop</h2> 
+                            <h2>ATN <br />TOY </h2> 
                             
                             <a href="?page=shop-grid" class="primary-btn">SHOP NOW</a>
                         </div>
@@ -54,28 +54,24 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/paimon.jpg">
-                            <h5><a href="#">Paimon Figure</a></h5>
+                        <div class="categories__item set-bg" data-setbg="ATNtoy/ace.jpg">
+                            <h5><a href="#">Portgas.D. Ace</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/keqing.jpg">
-                            <h5><a href="#">Fugure Keqing</a></h5>
+                        <div class="categories__item set-bg" data-setbg="ATNtoy/luffy.jpg">
+                            <h5><a href="#">Mokey. D. Luffy</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/ganyu.jpg">
-                            <h5><a href="#">Figure Ganyu</a></h5>
+                        <div class="categories__item set-bg" data-setbg="ATNtoy/Levi.jpg">
+                            <h5><a href="#">Levi Akerman</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/thobatuoc.jpg">
-                            <h5><a href="#">Earl bunny teddy bear</a></h5>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="img/categories/bomb.jpg">
-                            <h5><a href="#">Bomb pillow</a></h5>
+                        <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="ATNtoy/Mikey.jpg">
+                            <h5><a href="#">Mikey Sanjiro</a></h5>
                         </div>
                     </div>
                 </div>
