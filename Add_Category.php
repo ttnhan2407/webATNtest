@@ -23,7 +23,6 @@
             </div>
         </div>
     </section>
-    <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">

@@ -1,4 +1,3 @@
-
 	<!-- Hero Section Begin -->
     <section class="hero hero-normal">
         <div class="container">
@@ -12,7 +11,6 @@
                         <ul>
                             <li><a href="#">One Piece</a></li>
                             <li><a href="#">Son Guku</a></li>
-                            
                         </ul>
                     </div>
                 </div>
@@ -74,7 +72,6 @@
 				echo"<OPTION value='".$row['cat_id']."'>".$row['cat_name']. "</option>";
 			}
 			echo"</select>";
-
 	}
 
 	if(isset($_POST["btnAdd"]))
@@ -208,6 +205,3 @@
 			</form>
 			</div>
 </div>
-
-
-

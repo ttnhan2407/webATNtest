@@ -8,8 +8,6 @@
                     <div class="featured__controls">
                         <ul>
                             <li class="active" data-filter="*" ><a href="?page=content">All</a></li>
-                            
-                            
                         </ul>
                     </div>
                 </div>
@@ -31,10 +29,6 @@
                     while($row=pg_fetch_array($result, NULL, PGSQL_ASSOC)) { 
                         if($No <9){
                     ?>
-
-
-
-                       
                 <div class="col-lg-3 col-md-4 col-sm-6 mix ">
                 
                     <div class="featured__item">
@@ -51,15 +45,11 @@
                             <h5>$<?php echo $row["price"] ?></h5>
                         </div>
                     </div>
-                    
                 </div>
                 <?php 
                 }
                 $No++; }
-                ?>
-
-
-                
+                ?>   
             </div>
         </div>
     </section>

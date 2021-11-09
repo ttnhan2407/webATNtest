@@ -1,5 +1,3 @@
-
-
     <!-- Categories Section Begin -->
     <section class="categories">
         <div class="container">
@@ -81,10 +79,6 @@
                     include_once('Featured.php');
                 }
                 ?>
-
-    <!-- Featured Section Begin -->
-
-    <!-- Featured Section End -->
 
     
 

@@ -1,4 +1,3 @@
-
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
         <div class="container">
@@ -24,7 +23,7 @@
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                     <div class="contact__widget">
                         <span class="icon_phone"></span>
-                        <h4>Phone   </h4>
+                        <h4>Phone</h4>
                         <p>081 537 8057</p>
                     </div>
                 </div>

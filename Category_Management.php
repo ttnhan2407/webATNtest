@@ -1,14 +1,11 @@
-
 <!-- Hero Section Begin -->
 <section class="hero hero-normal">
         <div class="container">
-            <div class="row">
-                
+            <div class="row">               
                 <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form">
-                            <form action="#">
-        
+                            <form action="#">       
                                 <input type="text" placeholder="What do yo u need?">
                                 <button type="submit" class="site-btn">SEARCH</button>
                             </form>
@@ -47,9 +44,6 @@
     </section>
     <!-- Breadcrumb Section End -->
 <!-- Bootstrap --> 
-
-    
-	
         <form name="frm" method="post" action="">
         <h1>Category Management</h1>
         <p>
@@ -98,8 +92,5 @@
                 
                 ?>
 			</tbody>
-        </table>  
-        
-        
-        
+        </table>   
  </form>

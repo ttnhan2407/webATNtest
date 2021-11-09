@@ -1,5 +1,3 @@
-
-
     <!-- Categories Section Begin -->
     <section class="categories">
         <div class="container">
@@ -78,9 +76,6 @@
                 }
                 ?>
 
-    <!-- Featured Section Begin -->
-
-    <!-- Featured Section End -->
 
     
 

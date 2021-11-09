@@ -1,5 +1,4 @@
-
-    <!-- Hero Section Begin -->
+   <!-- Hero Section Begin -->
     <section class="hero hero-normal">
         <div class="container">
             <div class="row">
@@ -11,8 +10,7 @@
                         </div>
                         <ul>
                             <li><a href="#">One Piece</a></li>
-                            <li><a href="#">Son Guku</a></li>
-                            
+                            <li><a href="#">Son Guku</a></li>                            
                         </ul>
                     </div>
                 </div>
@@ -33,7 +31,7 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>)081 537 8057</h5>
+                                <h5>081 537 8057</h5>
                                 <span>Support 24/7 time</span>
                             </div>
                         </div>
@@ -67,8 +65,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h6><span class="icon_tag_alt"></span> Have a coupon? <a href="#">Click here</a> to enter your code
-                    </h6>
+                    <h6><span class="icon_tag_alt"></span> Have a coupon? <a href="#">Click here</a> to enter your code</h6>
                 </div>
             </div>
             <div class="checkout__form">
@@ -108,7 +105,7 @@
                                 <input type="text">
                             </div>
                             <div class="checkout__input">
-                                <p>Postcode / ZIP<span>*</span></p>
+                                <p>Postcode/ZIP<span>*</span></p>
                                 <input type="text">
                             </div>
                             <div class="row">
