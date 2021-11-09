@@ -106,7 +106,7 @@ if(isset($_POST['btnRegister']))
         $sq="SELECT * FROM customer WHERE username='$us' OR email='$email'";
         $res= pg_query($conn,$sq);
 
-        // neu khong bi trung email va user
+
         if(pg_num_rows($res)==0)
         {
             pg_query($conn,"INSERT INTO customer (username, password, custname, gender, address, telephone,

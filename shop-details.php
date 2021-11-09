@@ -40,13 +40,13 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                         </div>
                         <div class="product__details__pic__slider owl-carousel">
                             <img data-imgbigurl="img/product/details/product-details-2.jpg"
-                                src="img/product/details/Brook.jfif" alt="">
+                                src="img/product/details/ace.jfif" alt="">
                             <img data-imgbigurl="img/product/details/product-details-3.jpg"
-                                src="img/product/details/Charlotte.jpg" alt="">
+                                src="img/product/details/Goku.jfif" alt="">
                             <img data-imgbigurl="img/product/details/product-details-5.jpg"
-                                src="img/product/details/Enel.jfif" alt="">
+                                src="img/product/details/Levi.jfif" alt="">
                             <img data-imgbigurl="img/product/details/product-details-4.jpg"
-                                src="img/product/details/Luffy.jpg" alt="">
+                                src="img/product/details/Luffy.jfif" alt="">
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                             <span>(18 reviews)</span>
                         </div>
                         <div class="product__details__price">$<?php echo $row["price"]; ?></div>
-                        <p><?php echo $row["SmallDesc"]; ?></p>
+                        <p><?php echo $row["smalldesc"]; ?></p>
                         <form method="POST">
                             <div class="product__details__quantity">
                                 <div class="quantity">

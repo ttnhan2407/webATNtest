@@ -5,10 +5,10 @@
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
                     <div class="categories__item set-bg" data-setbg="ATNimg/ace.jfif">
-                            <h5><a href="#">Portgas.D. Ace</a></h5>
+                            <h5><a href="#">Ace</a></h5>
                         </div>
                         <div class="categories__item set-bg" data-setbg="ATNimg/luffy.jfif">
-                            <h5><a href="#">Mokey. D. Luffy</a></h5>
+                            <h5><a href="#">Luffy</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
