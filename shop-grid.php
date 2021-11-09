@@ -21,7 +21,7 @@
     <section class="product spad">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9">
+                <div class="col-lg-9 col-md-7">
                     <div class="product__discount">
                         <div class="section-title product__discount__title">
                             <h2> Bestseller</h2>
