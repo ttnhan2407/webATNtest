@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="shortcut icon" href="ATNtoy\Logo.png">
+    <link rel="shortcut icon" href="ATNimg\Logo.png">
 </head>
 
 <body>
@@ -37,7 +37,7 @@ include_once("connection.php");
     <div class="humberger__menu__overlay"></div>
     <div class="humberger__menu__wrapper">
         <div class="humberger__menu__logo">
-            <a href="?page=content"><img src="ATNtoy/Logo.png" alt=""></a>
+            <a href="?page=content"><img src="ATNimg/Logo.png" alt=""></a>
         </div>
         <div class="humberger__menu__cart">
             <ul>
@@ -143,7 +143,7 @@ include_once("connection.php");
                     <div class="col-lg-6 col-md-6">
                         <div class="header__top__left">
                             <ul>
-                                <li><i class="fa fa-envelope"></i> tuonggcc19257@fpt.edu.vn</li>
+                                <li><i class="fa fa-envelope"></i> nhanttgcc19274@fpt.edu.vn</li>
                                 <li>Free Shipping on All Orders Under $100</li>
                             </ul>
                         </div>
@@ -210,7 +210,7 @@ include_once("connection.php");
             <div class="row">
                 <div class="col-lg-3">
                     <div class="header__logo">
-                        <a href="?page=content"><img src="ATNtoy/Logo.png" alt=""></a>
+                        <a href="?page=content"><img src="ATNimg/Logo.png" alt=""></a>
                     </div>
                 </div>
                 
@@ -388,12 +388,12 @@ include_once("connection.php");
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="footer__about">
                         <div class="footer__about__logo">
-                            <a href="./index.html"><img src="ATNtoy/Logo.png" alt=""></a>
+                            <a href="./index.html"><img src="ATNimg/Logo.png" alt=""></a>
                         </div>
                         <ul>
-                            <li>Address: 160 Road 30/4 An Phu, Ninh Kieu, Can Tho, Vietnam</li>
-                            <li>Phone: +84 90 785 3006</li>
-                            <li>Email: tuonggcc19257@fpt.edu.vn</li>
+                            <li>Address: Ninh Kieu, Can Tho, Vietnam</li>
+                            <li>Phone: 081 537 8057</li>
+                            <li>Email: nhanttgcc19274@fpt.edu.vn</li>
                         </ul>
                     </div>
                 </div>

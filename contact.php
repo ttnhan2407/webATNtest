@@ -30,8 +30,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 90 785 3006</h5>
-                                <span>support 24/7 time</span>
+                                <h5>081 537 8057</h5>
+                                <span>Support 24/7 time</span>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="ATNtoy/background.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.jfif">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -67,14 +67,14 @@
                     <div class="contact__widget">
                         <span class="icon_phone"></span>
                         <h4>Phone   </h4>
-                        <p>+84-90-785-3006</p>
+                        <p>081 537 8057</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
                     <div class="contact__widget">
                         <span class="icon_pin_alt"></span>
                         <h4>Address</h4>
-                        <p>160 Road 30/4 An Phu, Ninh Kieu, Can Tho, Vietnam</p>
+                        <p>Ninh Kieu, Can Tho, Vietnam</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-6 text-center">
@@ -88,7 +88,7 @@
                     <div class="contact__widget">
                         <span class="icon_mail_alt"></span>
                         <h4>Email</h4>
-                        <p>tuonggcc19257@fpt.edu.vn</p>
+                        <p>nhanttgcc19274@fpt.edu.vn</p>
                     </div>
                 </div>
             </div>

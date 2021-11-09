@@ -34,8 +34,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 90 785 3006</h5>
-                                <span>support 24/7 time</span>
+                                <h5>081 573 8057</h5>
+                                <span>Support 24/7 time</span>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
         </div>
     </section>
     <!-- Hero Section End -->
-<section class="breadcrumb-section set-bg" data-setbg="ATNtoy/background.jpg">
+<section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.jfif">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">

@@ -38,8 +38,8 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 76 395 7775</h5>
-                                <span>support 24/7 time</span>
+                                <h5>081 537 8057</h5>
+                                <span>Support 24/7 time</span>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="ATNtoy/background.jpg">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.jfif">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -171,7 +171,7 @@
                                     <div class="latest-prdouct__slider__item">
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="ATNtoy/ace.jpg" alt="">
+                                                <img src="ATNimg/ace.jfif" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -180,7 +180,7 @@
                                         </a>
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="ATNtoy/luffy.jpg" alt="">
+                                                <img src="ATNimg/luffy.jfif" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -189,7 +189,7 @@
                                         </a>
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="ATNtoy/Levi.jpg" alt="">
+                                                <img src="ATNimg/Levi.jfif" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -200,7 +200,7 @@
                                     <div class="latest-prdouct__slider__item">
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="ATNtoy/Mikey.jpg" alt="">
+                                                <img src="ATNimg/Mikey.jfif" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -209,7 +209,7 @@
                                         </a>
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="ATNtoy/pika.jpg" alt="">
+                                                <img src="ATNimg/pika.jfif" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
@@ -218,7 +218,7 @@
                                         </a>
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="ATNtoy/zr.jpg" alt="">
+                                                <img src="ATNimg/zr.jfif" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>

@@ -29,12 +29,12 @@
                                 <i class="fa fa-phone"></i>
                             </div>
                             <div class="hero__search__phone__text">
-                                <h5>+84 90 785 3006</h5>
-                                <span>support 24/7 time</span>
+                                <h5>081 537 8057</h5>
+                                <span>Support 24/7 time</span>
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="ATNtoy/background.jpg">
+                    <div class="hero__item set-bg" data-setbg="ATNimg/background.jfif">
                         <div class="hero__text">
                             <span>NEW ON</span>
                             <h2>ATN <br />TOY</h2> 
@@ -54,20 +54,20 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                    <div class="categories__item set-bg" data-setbg="ATNtoy/ace.jpg">
+                    <div class="categories__item set-bg" data-setbg="ATNimg/ace.jfif">
                             <h5><a href="#">Portgas.D. Ace</a></h5>
                         </div>
-                        <div class="categories__item set-bg" data-setbg="ATNtoy/luffy.jpg">
+                        <div class="categories__item set-bg" data-setbg="ATNimg/luffy.jfif">
                             <h5><a href="#">Mokey. D. Luffy</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="ATNtoy/Levi.jpg">
+                        <div class="categories__item set-bg" data-setbg="ATNimg/Levi.jfif">
                             <h5><a href="#">Levi Akerman</a></h5>
                         </div>
                     </div>
-                    <div class="categories__item set-bg" data-setbg="ATNtoy/Mikey.jpg">
-                            <h5><a href="#">Mikey Sanjiro</a></h5>
+                    <div class="categories__item set-bg" data-setbg="ATNimg/Mikey.jfif">
+                            <h5><a href="#">Sanji</a></h5>
                         </div>
                     </div>
                 </div>
