@@ -62,7 +62,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.jfif">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.png">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -200,7 +200,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="ATNimg/background.jfif">
+                        <div class="product__item__pic set-bg" data-setbg="ATNimg/background.png">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
@@ -230,7 +230,7 @@ $row=pg_fetch_array($result, NULL, PGSQL_ASSOC);
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6">
                     <div class="product__item">
-                        <div class="product__item__pic set-bg" data-setbg="ATNimg/Mikey.jfif">
+                        <div class="product__item__pic set-bg" data-setbg="ATNimg/Mikey.jpg">
                             <ul class="product__item__pic__hover">
                                 <li><a href="#"><i class="fa fa-heart"></i></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>

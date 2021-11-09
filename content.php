@@ -34,7 +34,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="hero__item set-bg" data-setbg="ATNimg/background.jfif">
+                    <div class="hero__item set-bg" data-setbg="ATNimg/background.png">
                         <div class="hero__text">
                             <span>NEW ON</span>
                             <h2>ATN <br />TOY </h2> 
@@ -70,7 +70,7 @@
                     </div>
                     <div class="col-lg-3">
                         <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="ATNimg/Mikey.jfif">
+                        <div class="categories__item set-bg" data-setbg="ATNimg/Mikey.jpg">
                             <h5><a href="#">Sanji</a></h5>
                         </div>
                     </div>

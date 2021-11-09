@@ -50,7 +50,7 @@
     <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
-    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.jfif">
+    <section class="breadcrumb-section set-bg" data-setbg="ATNimg/background.png">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -200,7 +200,7 @@
                                     <div class="latest-prdouct__slider__item">
                                         <a href="#" class="latest-product__item">
                                             <div class="latest-product__item__pic">
-                                                <img src="ATNimg/Mikey.jfif" alt="">
+                                                <img src="ATNimg/Mikey.jpg" alt="">
                                             </div>
                                             <div class="latest-product__item__text">
                                                 <h6></h6>
