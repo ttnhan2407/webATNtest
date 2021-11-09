@@ -14,7 +14,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="ATNimg/pika.jfif">
+                        <div class="categories__item set-bg" data-setbg="ATNimg/pika.jpg">
                             <h5><a href="#">Nami</a></h5>
                         </div>
                     </div>
