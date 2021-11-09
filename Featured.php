@@ -43,7 +43,7 @@
                     
                                 <li><a href="#"><span class="fa fa-heart"></span></a></li>
                                 <li><a href="#"><i class="fa fa-retweet"></i></a></li>
-                                <li><a href="?page=shop-details&&id=<?php echo  $row['ơroduct_id'] ?>"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="?page=shop-details&&id=<?php echo  $row['product_id'] ?>"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
