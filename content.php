@@ -3,7 +3,7 @@
     <section class="hero">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9">
+                <div class="col-lg-3">
                     <div class="hero__search">
                         <div class="hero__search__form">
                             <form action="#" method="POST">
@@ -40,28 +40,26 @@
     <section class="categories">
         <div class="container">
             <div class="row">
-                <div class="col-lg-9">
-                    <div class="categories__slider owl-carousel">
-                        <div class="col-lg-3">
-                            <div class="categories__item set-bg" data-setbg="ATNimg/ace.jfif">
-                                <h5><a href="#">Ace</a></h5>
-                            </div>
+                <div class="categories__slider owl-carousel">
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="ATNimg/ace.jfif">
+                            <h5><a href="#">Ace</a></h5>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="categories__item set-bg" data-setbg="ATNimg/luffy.jfif">
-                                <h5><a href="#">Luffy</a></h5>
-                            </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="ATNimg/luffy.jfif">
+                            <h5><a href="#">Luffy</a></h5>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="categories__item set-bg" data-setbg="ATNimg/Levi.jfif">
-                                <h5><a href="#">Levi Akerman</a></h5>
-                            </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="categories__item set-bg" data-setbg="ATNimg/Levi.jfif">
+                            <h5><a href="#">Levi Akerman</a></h5>
                         </div>
+                    </div>
+                    <div class="col-lg-3">
                         <div class="col-lg-3">
-                            <div class="col-lg-3">
-                            <div class="categories__item set-bg" data-setbg="ATNimg/Mikey.jpg">
-                                <h5><a href="#">Sanji</a></h5>
-                            </div>
+                        <div class="categories__item set-bg" data-setbg="ATNimg/Mikey.jpg">
+                            <h5><a href="#">Sanji</a></h5>
                         </div>
                     </div>
                 </div>
