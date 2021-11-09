@@ -4,24 +4,24 @@
             <div class="row">
                 <div class="categories__slider owl-carousel">
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="ATNimg/ace.jfif">
-                            <h5><a href="#">Ace</a></h5>
+                        <div class="categories__item set-bg" data-setbg="ATNimg/zr.jpg">
+                            <h5><a href="#">Roronoa Zoro</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="ATNimg/luffy.jfif">
-                            <h5><a href="#">Luffy</a></h5>
+                        <div class="categories__item set-bg" data-setbg="ATNimg/luffy1.jfif">
+                            <h5><a href="#">Monkey D. Luffy</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="categories__item set-bg" data-setbg="ATNimg/Levi.jfif">
-                            <h5><a href="#">Levi Akerman</a></h5>
+                        <div class="categories__item set-bg" data-setbg="ATNimg/pika.jfif">
+                            <h5><a href="#">Nami</a></h5>
                         </div>
                     </div>
                     <div class="col-lg-3">
                         <div class="col-lg-3">
                         <div class="categories__item set-bg" data-setbg="ATNimg/Mikey.jpg">
-                            <h5><a href="#">Sanji</a></h5>
+                            <h5><a href="#">Vinsmoke Sanji</a></h5>
                         </div>
                     </div>
                 </div>
