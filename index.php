@@ -353,10 +353,10 @@ include_once("connection.php");
         {
             include_once('add_branch.php');
         }
-        else if($page=="branch")
-        {
-            include_once('branch.php');
-        }
+        //else if($page=="branch")
+       // {
+      //      include_once('branch.php');
+       // }
 
         else if($page=="upa")
         {
