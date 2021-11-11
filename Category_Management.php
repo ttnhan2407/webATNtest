@@ -93,22 +93,21 @@
                     if(isset($_GET["id"]))
                     {
                        $id = $_GET["id"];
-                        pg_query($conn, "delete from category where cat_id='$id'");
+                        pg_query($conn, "delete from branch where branch_id='$id'");
                     }
                          
                 }
 
                 $No = 1;
-                $result = pg_query($conn, "select * from category");
+                $result = pg_query($conn, "select * from branch");
                 while ($row=pg_fetch_array($result, NULL, PGSQL_ASSOC))
                 {
                 ?>
 			<tr>
                 <td class="cotCheckBox"><?php echo $No; ?></td>
-                <td><?php echo $row['cat_name']?></td>
-                <td><?php echo $row['cat_des']?></td>
-                <td style='text-align:center'><a href="?page=upc&&id=<?php echo $row['cat_id'];?>"><i class="fa fa-edit"></i></td>
-                <td style='text-align:center'><a href="?page=cat&&function=del&&id=<?php echo $row['cat_id']; ?>"
+                <td><?php echo $row['branch_name']?></td>
+                <td style='text-align:center'><a href="?page=upc&&id=<?php echo $row['branch_id'];?>"><i class="fa fa-edit"></i></td>
+                <td style='text-align:center'><a href="?page=cat&&function=del&&id=<?php echo $row['branch_id']; ?>"
                  onclick="return ConfirmDelete()"><i class="fa fa-close"></i></td>
             </tr>
             <?php
