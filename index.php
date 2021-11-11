@@ -479,6 +479,15 @@ include_once("connection.php");
 				echo '<li ><a  href="?page=shop-grid&&id='.$row['cat_id'].'">'.$row['cat_name'].'</a></li>';
 			}
     }
-    
+    function departmentbranch($conn )
+	{
+		$sqlString = "SELECT branch_id, branch_name from branch";
+		$result = pg_query($conn, $sqlString);
+		
+			while ($row=pg_fetch_array($result, NULL, PGSQL_ASSOC))
+			{
+				echo '<li ><a  href="?page=shop-grid&&id='.$row['branch_id'].'">'.$row['branch_name'].'</a></li>';
+			}
+    }
     
     ?>
