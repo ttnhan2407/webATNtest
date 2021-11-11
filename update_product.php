@@ -1,52 +1,4 @@
-<!-- Hero Section Begin -->
-<section class="hero hero-normal">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <div class="hero__categories">
-                        <div class="hero__categories__all">
-                            <i class="fa fa-bars"></i>
-                            <span>All toy brands</span>
-                        </div>
-                        <ul>
-						    <?php Department($conn); ?>
-                        </ul>
-                        <ul>
-                        <li ><a  href="?page=pm">All</a></li>
 
-                        <?php Category_List($conn ); ?>
-                            
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="hero__search">
-                        <div class="hero__search__form">
-                            <form action="#">
-                                <div class="hero__search__categories">
-                                    All Categories
-                                    <span class="arrow_carrot-down"></span>
-                                    
-                                </div>
-                                <input type="text" placeholder="What do yo u need?">
-                                <button type="submit" class="site-btn">SEARCH</button>
-                            </form>
-                        </div>
-                        <div class="hero__search__phone">
-                            <div class="hero__search__phone__icon">
-                                <i class="fa fa-phone"></i>
-                            </div>
-                            <div class="hero__search__phone__text">
-                                <h5>081 537 8057</h5>
-                                <span>Support 24/7 time</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Hero Section End -->
 
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
@@ -87,10 +39,29 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 			}
 		echo "</select>";
 	}
+	function bind_Branch_List($conn, $selectedValue)
+	{
+		$sqlString = "SELECT branch_id, branch_name from branch";
+		$result = pg_query($conn, $sqlString);
+echo "<SELECT name ='BranchList' class='from-control'>
+			<option value='0'>Choose Branch</option>";
+			while ($row=pg_fetch_array($result,NULL, PGSQL_ASSOC))
+			{
+				if($row['branch_id']==$selectedValue)
+				{
+					echo "<option value ='".$row['branch_id']."' selected>".$row['branch_name']."</option>";
+				}
+				else
+				{
+					echo "<option value='".$row['branch_id']."'>".$row['branch_name']."</option>";
+				}
+			}
+		echo "</select>";
+	}
 	if(isset($_GET['id']))
 	{
 		$id = $_GET['id'];
-		$sqlString = "SELECT product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id from product where product_id='$id'";
+		$sqlString = "SELECT product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id, branch from product where product_id='$id'";
 
 		$result = pg_query($conn, $sqlString);
 		$row = pg_fetch_array($result, NULL, PGSQL_ASSOC);
@@ -98,6 +69,7 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 		$proname = $row['product_name'];
 		$short = $row['smalldesc'];
 		$detail = $row['detaildesc'];
+		$branch = $row['branch'];
 		$price = $row['price'];
 		$qty = $row['pro_qty'];
 		$pic = $row['pro_image'];
@@ -142,6 +114,14 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 							      <input type="text" name="txtShort" id="txtShort" class="form-control" placeholder="Short description" value="<?php echo $short?>"/>
 							</div>
                 </div>
+
+				<div class="form-group">   
+                    <label for="" class="col-sm-5 control-label">Branch(*):  </label>
+							<div class="col-sm-10">
+								<?php bind_Branch_List($conn, $branch); ?>
+							      
+							</div>
+                </div>
                             
                 <div class="form-group">   
                     <label for="lblDetail" class="col-sm-5 control-label">Detail Description(*):  </label>
@@ -181,6 +161,7 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 		$proname = $_POST['txtName'];
 		$short = $_POST['txtShort'];
 		$detail = $_POST['txtDetail'];
+		$branch = $_POST['txtbranch'];
 		$price = $_POST['txtPrice'];
 		$qty = $_POST['txtQty'];
 		$pic = $_FILES['txtImage'];
@@ -202,10 +183,7 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 				{
 					if($pic['size']<=614400)
 					{
-						// $sql="select * from Product where Product_ID='$id' and Product_Name='$proname'";
-						// $result = mysqli_query($conn, $sql);
-						// if(mysqli_num_rows($result)=="0")
-						// {
+						
 							copy($pic['tmp_name'], "img/".$pic['name']);
 							$filepic = $pic['name'];
 							
@@ -213,11 +191,7 @@ echo "<SELECT name ='CategoryList' class='from-control'>
 							prodate ='".date('Y-m-d H:i:s')."' where product_id ='$id'";
 							pg_query($conn,$sqlString);
 							echo '<meta http-equiv="refresh" content="0;URL=?page=pm"';	
-						// }
-						// else
-						// {
-						// 	echo "Duplicate name</br>";
-						// }
+						
 					}
 					else
 					{
