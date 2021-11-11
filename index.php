@@ -214,7 +214,7 @@ include_once("connection.php");
                             ?>  <li><a id ="CMM"href="?page=pm">Product Management </a>
                                     <ul class="header__menu__dropdown">
                                     <li><a href="?page=cat">Category Management</a></li>
-                                    <li><a href="?page=">Brank Management</a></li>
+                                    <li><a href="?page=branch">Branch Management</a></li>
                                     </ul>
                                     <li><a href="?page=content">Pages</a>
                                 <ul class="header__menu__dropdown">

@@ -7,7 +7,7 @@
                         <h2>Branch Management</h2>
                         <div class="breadcrumb__option">
                             <a href="./index.html">Home</a>
-                            <span>Brank Management</span>
+                            <span>Branch Management</span>
                         </div>
                     </div>
                 </div>
@@ -19,7 +19,7 @@
 <form name="frm" method="post" action="">
         <h1>Branch</h1>
         <p>
-        <i class="fa fa-plus"></i> <a href="?page=addc"> Add</a>
+        <i class="fa fa-plus"></i> <a href="?page=addbr"> Add</a>
         </p>
         <table id="tablebranch" class="table table-striped table-bordered" cellspacing="0" width="100%">
             <thead>
@@ -52,8 +52,8 @@
 			<tr>
                 <td class="cotCheckBox"><?php echo $No; ?></td>
                 <td><?php echo $row['branch_name']?></td>
-                <td style='text-align:center'><a href="?page=upc&&id=<?php echo $row['branch_id'];?>"><i class="fa fa-edit"></i></td>
-                <td style='text-align:center'><a href="?page=cat&&function=del&&id=<?php echo $row['branch_id']; ?>"
+                <td style='text-align:center'><a href="?page=upbr&&id=<?php echo $row['branch_id'];?>"><i class="fa fa-edit"></i></td>
+                <td style='text-align:center'><a href="?page=branch&&function=del&&id=<?php echo $row['branch_id']; ?>"
                  onclick="return ConfirmDelete()"><i class="fa fa-close"></i></td>
             </tr>
             <?php
