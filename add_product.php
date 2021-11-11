@@ -30,6 +30,16 @@
 			}
 			echo"</select>";
 	}
+	function bind_Branch_List($conn){
+		$sqlstring ="SELECT branch_id, branch_name from branch";
+		$result= pg_query($conn, $sqlstring);
+		echo"<SELECT name ='BranchList'class='form-control '
+			<option value='0'>Choose branch</option>";
+			while($row = pg_fetch_array($result, NULL, PGSQL_ASSOC)){
+				echo"<OPTION value='".$row['branch_id']."'>".$row['branch_name']. "</option>";
+			}
+			echo"</select>";
+	}
 
 	if(isset($_POST["btnAdd"]))
 	{  
@@ -131,11 +141,12 @@
                 </div>
 
 				<div class="form-group">   
-                    <label for="lblShort" class="col-sm-12 control-label">Branch(*):  </label>
+                    <label for="" class="col-sm-2 control-label">Branch(*):  </label>
 							<div class="col-sm-10">
-							      <input type="text" name="txtbranch" id="txtbranch" class="form-control" placeholder="Branch" value="<?php if(isset($branch)) echo $branch?>"/>
+                            
+							      <?php bind_Branch_List($conn); ?>
 							</div>
-                </div>
+                </div> 
                             
                 <div class="form-group">   
                     <label for="lblDetail" class="col-sm-2 control-label">Detail Description(*):  </label>
