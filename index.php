@@ -214,7 +214,7 @@ include_once("connection.php");
                             ?>  <li><a id ="CMM"href="?page=pm">Product Management </a>
                                     <ul class="header__menu__dropdown">
                                     <li><a href="?page=cat">Category Management</a></li>
-                                    <li><a href="?page=cat">Brank Management</a></li>
+                                    <li><a href="?page=">Brank Management</a></li>
                                     </ul>
                                     <li><a href="?page=content">Pages</a>
                                 <ul class="header__menu__dropdown">
@@ -344,6 +344,20 @@ include_once("connection.php");
         {
             include_once('Update_Category.php');
         }
+
+        else if($page=="upbr")
+        {
+            include_once('update_branch.php');
+        }
+        else if($page=="addbr")
+        {
+            include_once('add_branch.php');
+        }
+        else if($page=="branch")
+        {
+            include_once('branch.php');
+        }
+
         else if($page=="upa")
         {
             include_once('update_account.php');
