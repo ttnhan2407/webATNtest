@@ -1,5 +1,3 @@
-
-
     <!-- Breadcrumb Section Begin -->
     <section class="breadcrumb-section set-bg" data-setbg="ATNimg/one.jpg">
         <div class="container">
@@ -18,8 +16,8 @@
     </section>
     <!-- Breadcrumb Section End -->
 <!-- Bootstrap --> 
-        <form name="frm" method="post" action="">
-        <h1>Category Management</h1>
+<form name="frm" method="post" action="">
+        <h1>Branch</h1>
         <p>
         <i class="fa fa-plus"></i> <a href="?page=addc"> Add</a>
         </p>
@@ -27,8 +25,7 @@
             <thead>
                 <tr>
                     <th><strong>No.</strong></th>
-                    <th><strong>Category Name</strong></th>
-                     <th><strong>Description</strong></th>
+                    <th><strong>Branch Name</strong></th>
                     <th><strong>Edit</strong></th>
                     <th><strong>Delete</strong></th>
                 </tr>
@@ -42,22 +39,21 @@
                     if(isset($_GET["id"]))
                     {
                        $id = $_GET["id"];
-                        pg_query($conn, "delete from category where cat_id='$id'");
+                        pg_query($conn, "delete from branch where branch_id='$id'");
                     }
                          
                 }
 
                 $No = 1;
-                $result = pg_query($conn, "select * from category");
+                $result = pg_query($conn, "select * from branch");
                 while ($row=pg_fetch_array($result, NULL, PGSQL_ASSOC))
                 {
                 ?>
 			<tr>
                 <td class="cotCheckBox"><?php echo $No; ?></td>
-                <td><?php echo $row['cat_name']?></td>
-                <td><?php echo $row['cat_des']?></td>
-                <td style='text-align:center'><a href="?page=upc&&id=<?php echo $row['cat_id'];?>"><i class="fa fa-edit"></i></td>
-                <td style='text-align:center'><a href="?page=cat&&function=del&&id=<?php echo $row['cat_id']; ?>"
+                <td><?php echo $row['branch_name']?></td>
+                <td style='text-align:center'><a href="?page=upc&&id=<?php echo $row['branch_id'];?>"><i class="fa fa-edit"></i></td>
+                <td style='text-align:center'><a href="?page=cat&&function=del&&id=<?php echo $row['branch_id']; ?>"
                  onclick="return ConfirmDelete()"><i class="fa fa-close"></i></td>
             </tr>
             <?php
@@ -68,5 +64,3 @@
 			</tbody>
         </table>   
  </form>
-
- 
