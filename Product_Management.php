@@ -126,9 +126,3 @@
         </div>
     </section>
     <!-- Shoping Cart Section End -->
-    
-	
-	
-
-   
-    
