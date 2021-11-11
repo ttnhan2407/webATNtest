@@ -61,7 +61,7 @@ echo "<SELECT name ='BranchList' class='from-control'>
 	if(isset($_GET['id']))
 	{
 		$id = $_GET['id'];
-		$sqlString = "SELECT product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id, branch from product where product_id='$id'";
+		$sqlString = "SELECT product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id, branch_id from product where product_id='$id'";
 
 		$result = pg_query($conn, $sqlString);
 		$row = pg_fetch_array($result, NULL, PGSQL_ASSOC);
@@ -161,7 +161,6 @@ echo "<SELECT name ='BranchList' class='from-control'>
 		$proname = $_POST['txtName'];
 		$short = $_POST['txtShort'];
 		$detail = $_POST['txtDetail'];
-		$branch = $_POST['txtbranch'];
 		$price = $_POST['txtPrice'];
 		$qty = $_POST['txtQty'];
 		$pic = $_FILES['txtImage'];
