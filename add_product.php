@@ -39,6 +39,7 @@
 		$detail=$_POST['txtDetail'];
 		$price=$_POST['txtPrice'];
 		$qty=$_POST['txtQty'];
+		$branch=$_POST['txtbranch'];
         $pic=$_FILES['txtImage'];
         $category=$_POST['CategoryList'];
 		
@@ -67,8 +68,8 @@
 						copy($pic['tmp_name'],"img/".$pic['name']);
 						$filePic =$pic['name'];
 						$sqlstring="INSERT INTO product(
-							product_id, product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id)
-							VALUES('$id','$proname', $price,'$short','$detail','".date('Y-m-d H:i:s')."',$qty,'$filePic','$category')";
+							product_id, product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id, branch)
+							VALUES('$id','$proname', $price,'$short','$detail','".date('Y-m-d H:i:s')."',$qty,'$filePic','$category', 'branch')";
 							
 						pg_query($conn, $sqlstring);
 						echo'<li>You have add successfully</li>';
@@ -106,7 +107,6 @@
 								  placeholder="Product Name" value=''/>
 							</div>
                 </div>   
-                
                           
                 <div class="form-group">  
                     <label for="lblGia" class="col-sm-2 control-label">Price(*):  </label>
@@ -127,6 +127,13 @@
                     <label for="lblShort" class="col-sm-12 control-label">Short description(*):  </label>
 							<div class="col-sm-10">
 							      <input type="text" name="txtShort" id="txtShort" class="form-control" placeholder="Short description" value="<?php if(isset($short)) echo $short?>"/>
+							</div>
+                </div>
+
+				<div class="form-group">   
+                    <label for="lblShort" class="col-sm-12 control-label">Branch(*):  </label>
+							<div class="col-sm-10">
+							      <input type="text" name="txtbranch" id="txtbranch" class="form-control" placeholder="Branch" value="<?php if(isset($branch)) echo $branch?>"/>
 							</div>
                 </div>
                             
