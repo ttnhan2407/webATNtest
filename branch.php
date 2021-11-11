@@ -4,10 +4,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Category Management</h2>
+                        <h2>Branch Management</h2>
                         <div class="breadcrumb__option">
                             <a href="./index.html">Home</a>
-                            <span>Category Management</span>
+                            <span>Brank Management</span>
                         </div>
                     </div>
                 </div>
@@ -21,7 +21,7 @@
         <p>
         <i class="fa fa-plus"></i> <a href="?page=addc"> Add</a>
         </p>
-        <table id="tablecategory" class="table table-striped table-bordered" cellspacing="0" width="100%">
+        <table id="tablebranch" class="table table-striped table-bordered" cellspacing="0" width="100%">
             <thead>
                 <tr>
                     <th><strong>No.</strong></th>
@@ -64,3 +64,4 @@
 			</tbody>
         </table>   
  </form>
+
