@@ -35,6 +35,16 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="sidebar">
+                        <div class="sidebar__item">
+                            <h4>Branch</h4>
+                            <ul>
+                            
+                            <?php departmentbranch($conn ); ?>
+                                
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-9 col-md-7">
                     <div class="product__discount">
