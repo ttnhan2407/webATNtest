@@ -52,7 +52,7 @@
 		$qty=$_POST['txtQty'];
         $pic=$_FILES['txtImage'];
         $category=$_POST['CategoryList'];
-		
+		$branch=$_POST['BranchList'];
 		$err="";
 		
 		if(trim($proname)==""){
