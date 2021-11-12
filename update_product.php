@@ -47,7 +47,7 @@ echo "<SELECT name ='BranchList' class='from-control'>
 			<option value='0'>Choose Branch</option>";
 			while ($row=pg_fetch_array($result,NULL, PGSQL_ASSOC))
 			{
-				if($row['branch_name']==$selectedValue)
+				if($row['branch_id']==$selectedValue)
 				{
 					echo "<option value ='".$row['branch_id']."' selected>".$row['branch_name']."</option>";
 				}
@@ -61,7 +61,7 @@ echo "<SELECT name ='BranchList' class='from-control'>
 	if(isset($_GET['id']))
 	{
 		$id = $_GET['id'];
-		$sqlString = "SELECT product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id, branch_name from product where product_id='$id'";
+		$sqlString = "SELECT product_name, price, smalldesc, detaildesc, prodate, pro_qty, pro_image, cat_id, branch_id from product where product_id='$id'";
 
 		$result = pg_query($conn, $sqlString);
 		$row = pg_fetch_array($result, NULL, PGSQL_ASSOC);
@@ -186,7 +186,7 @@ echo "<SELECT name ='BranchList' class='from-control'>
 							copy($pic['tmp_name'], "img/".$pic['name']);
 							$filepic = $pic['name'];
 							
-							$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short', detaildesc ='$detail', pro_qty ='$qty', pro_image ='$filepic', cat_id ='$cat', 
+							$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short', detaildesc ='$detail', pro_qty ='$qty', pro_image ='$filepic', cat_id ='$cat', branch_id='$branch',
 							prodate ='".date('Y-m-d H:i:s')."' where product_id ='$id'";
 							pg_query($conn,$sqlString);
 							echo '<meta http-equiv="refresh" content="0;URL=?page=pm"';	
@@ -205,7 +205,7 @@ echo "<SELECT name ='BranchList' class='from-control'>
 			else
 			{
 				
-					$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short',  detaildesc ='$detail', pro_qty='$qty', cat_id='$cat', branch_name='$branch', 
+					$sqlString = "UPDATE product set product_name ='$proname', price = '$price', smalldesc ='$short',  detaildesc ='$detail', pro_qty='$qty', cat_id='$cat', branch_id='$branch', 
 					prodate='".date('Y-m-d H:i:s')."' where product_id ='$id'";
 					pg_query($conn,$sqlString);
 					echo '<meta http-equiv="refresh" content="0;URL =?page=pm"';	
